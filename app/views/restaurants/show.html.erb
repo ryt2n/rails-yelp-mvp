@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+      <ul>
+        <li><h2><%= @restaurant.name %></h2> - <%= @restaurant.category %></li>
+        <%= @restaurant.address %><br>
+        <%= @restaurant.phone_number %>
+        <p></p>
+        <%= link_to "back to list", restaurants_path %>
+    </ul>
+</body>
+</html>
